@@ -548,7 +548,7 @@ class _AppBarState extends State<AppBar> {
     if (leading == null && widget.automaticallyImplyLeading) {
       if (hasDrawer) {
         leading = IconButton(
-          icon: const Icon(Icons.add),
+          icon: const Icon(Icons.menu),
           onPressed: _handleDrawerButton,
           tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
         );
